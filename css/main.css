@@ -1,0 +1,86 @@
+.navbar .nav-item {
+  font-size: 18px !important;
+  
+}
+
+.carousel-item {
+  height: 600px !important;
+}
+
+.carousel-image-1{
+  background: url(../img/image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-image-2{
+  background: url(../img/image2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.carousel-image-3{
+  background: url(../img/image3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-heading {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/lights.jpg);
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#video-play {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/media.jpg);
+  min-height: 200px;
+  background-size: cover;
+  background-position: 0 -300px;
+  background-attachment: fixed;
+}
+body {
+  overflow-x: hidden;
+}
+
+#page-header {
+  height: 200px;
+  background: url(../img/image1.jpg);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+  color: #fff;
+
+}
+
+.about-img {
+  margin-top: -45px;
+}
+
+#faq .card {
+  border: #444;
+  /* color: #fff !important; */
+}
+
+#faq a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#faq .card, #faq .card-body {
+  background: #333;
+  color: #fff !important;
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 576) {
+  #newsletter input.form-control {
+    padding-top: 30px !important;
+  }
+ }
